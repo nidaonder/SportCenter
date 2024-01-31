@@ -1,0 +1,29 @@
+.section-2 {
+    background-color: #f1f8ff;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .box {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .box p {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+.section-2 .box span {
+    font-size: 2rem;
+    color: #355592;
+}

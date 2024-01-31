@@ -1,0 +1,50 @@
+.section-3 {
+    background-color: white;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.section-3 h3 {
+    color: #355592;
+    font-size: 4rem;
+}
+
+.section-3 a {
+    color: white;
+    text-decoration: none;
+    background-color: #355592;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 2rem;
+}
+
+.section-3 h4 {
+    color: #404040;
+    font-size: 2.5rem;
+}
+
+.section-3 p {
+    color: #404040;
+    font-size: 1.5rem;
+}
+
+.section-3 .box-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-3 .box-3 {
+    display: flex;
+    gap: 100px;
+}
+
+.box-2 {
+    text-align: center;
+}
