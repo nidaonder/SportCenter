@@ -15,12 +15,11 @@
 }
 
 .section-3 .inner {
-    width:90px;
+    width: 90px;
     margin: 0 auto;
     border-bottom: 8px solid orange;
     border-radius: 5px;
 }
-
 
 .section-3 a {
     color: white;
