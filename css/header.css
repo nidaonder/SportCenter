@@ -15,7 +15,7 @@
     padding: 10%;
 }
 
-nav {
+#nav-bar {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -24,6 +24,10 @@ nav {
     left: 0;
     right: 0;
     z-index: 1000;
+}
+
+#nav-bar.scrolled {
+    background-color: #355592;
 }
 
 nav .menu {
