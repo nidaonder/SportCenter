@@ -81,9 +81,9 @@
 .submit-btn {
     padding: 5px;
     background-color: #355592;
-    color: white; /* Gönder butonu yazı rengi */
+    color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer; /* İmleci, üzerine gelindiğinde el simgesine dönüştür */
+    cursor: pointer;
     font-size: 16px;
   }
