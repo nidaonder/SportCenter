@@ -1,0 +1,89 @@
+.section-7 {
+    background-color: white;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section-7 h3 {
+    color: #355592;
+    font-size: 4rem;
+}
+
+.section-7 .inner {
+    width: 90px;
+    margin: 0 auto;
+    border-bottom: 8px solid orange;
+    border-radius: 5px;
+}
+
+.section-7 p {
+    color: #404040;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.section-7 .box-3 {
+    display: flex;
+    gap: 100px;
+
+}
+.map {
+    width: 500px;
+    height: 400px;
+    background-color: lime;
+}
+
+.contact {
+    display: flex;
+    gap: 50px;
+}
+
+.contact p {
+    text-align: left;
+    font-weight: 500;
+}
+
+.contact p span {
+    color: #404040;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.appointment h6 {
+    color: #404040;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 5% 0;
+}
+
+.box-3 form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input, .text-area {
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #404040;
+  background-color: #f1f8ff;
+
+}
+
+.submit-btn {
+    padding: 5px;
+    background-color: #355592;
+    color: white; /* Gönder butonu yazı rengi */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* İmleci, üzerine gelindiğinde el simgesine dönüştür */
+    font-size: 16px;
+  }
