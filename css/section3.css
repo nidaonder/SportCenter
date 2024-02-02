@@ -28,6 +28,26 @@
     border-radius: 4px;
     padding: 8px 10px;
     font-size: 2rem;
+    position: relative;
+}
+
+.section-3 a::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 10px;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    z-index: -1;
+}
+
+.section-3 a:hover {
+    z-index: 1;
+    background-color: orange;
+    box-shadow: 1px 1px 5px orange;
 }
 
 .section-3 h4 {
