@@ -1,0 +1,58 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    color: white;
+    margin: 0;
+}
+
+.bg-img {
+    background-image: url(../images/hero-man.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 10%;
+}
+
+#nav-bar {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#nav-bar.scrolled {
+    background-color: #355592;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+
+nav .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    color: white;
+}
+
+nav .menu ul a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+a:visited {
+    color: white;
+}
+
+.join-button {
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
