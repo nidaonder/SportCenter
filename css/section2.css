@@ -27,3 +27,16 @@
     font-size: 2rem;
     color: #355592;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    .section-2 {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .section-2 .box {
+        width: 250px;
+    }
+}
