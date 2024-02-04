@@ -76,3 +76,19 @@
 .section-5 .shop-icon span {
     color: #404040;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    .section-5 {
+        height: 2000px;
+    }
+
+    .section-5 .box-3 {
+        flex-direction: column;
+    }
+
+    .section-5 p {
+        text-align: center;
+    }
+}
