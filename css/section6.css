@@ -78,3 +78,16 @@
     gap: 20px;
     align-items: center;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    .section-6 {
+        height: 800px;
+    }
+
+    .section-6 .box-3 {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
