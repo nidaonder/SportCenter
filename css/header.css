@@ -118,7 +118,38 @@ header .box-2 .button-2 {
 
 @media screen and (max-width: 576px){
 
-    .hamburger-menu{
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #navbar .menu {
+        position: absolute;
+        justify-content: center;
+        background-color: #355592;
+        width: 100%;
+        display: none;
+        top: 60px;
+        left: 0;
+        z-index: 999;
+    }
+
+    #navbar .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .menu ul li {
+        text-align: center; /* Menü öğelerini ortala */
+    }
+
+    #navbar .menu ul a {
+        display: flex;
+    }
+
+    /* .hamburger-menu{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -133,8 +164,10 @@ header .box-2 .button-2 {
 
     #navbar .menu li {
         margin: 15px 0;
-    }
+    } */
 
+
+    
     header {
         gap:10rem;
     }

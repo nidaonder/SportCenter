@@ -1,17 +1,45 @@
 /* ------Navbar------ */
+/* Değerlendirme 9 */
 
 window.addEventListener('scroll', function() {
-    let navElement = document.querySelector('#navbar');
+    const navElement = document.querySelector('#navbar');
     if(this.window.scrollY > 0 ) {
         navElement.classList.add('scrolled');
     } else {
         navElement.classList.remove('scrolled');
+        const menu = document.querySelector('.menu');
+        if (menu.style.display !== 'flex') {
+            navElement.classList.remove('scrolled');
+        }
     }
 });
 
 document.querySelector('.hamburger-menu').addEventListener('click', function() {
     const menu = document.querySelector('.menu');
-    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+    const navBar = document.querySelector('#navbar');
+    if(menu.style.display === 'flex') {
+        menu.style.display = 'none';
+        if(window.scrollY === 0) {
+            navBar.classList.add('scrolled');;
+        }
+    } else {
+        menu.style.display = 'flex';
+        navBar.classList.add('scrolled');
+    }
+});
+
+window.addEventListener('resize', function() {
+    const navBar = document.querySelector('#navbar');
+    const menu = document.querySelector('.menu');
+    if(this.window.innerWidth > 576) {
+        menu.style.display = 'flex';
+        if(this.window.scrollY === 0) {
+            navBar.classList.remove('scrolled');
+        }
+    } else {
+        menu.style.display = 'none';
+        navBar.classList.remove('scrolled');
+    }
 })
 
 /* ------Our Classes------ */ 
@@ -114,6 +142,7 @@ document.querySelectorAll('.box.box-3 a').forEach(link => {
   }
 
 /*  ------ BMİ ------ */
+/* Değerlendirme 8 */
 
 const height = document.querySelector('#height');
 const weight = document.querySelector('#weight');
