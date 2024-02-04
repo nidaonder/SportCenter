@@ -9,6 +9,11 @@ window.addEventListener('scroll', function() {
     }
 });
 
+document.querySelector('.hamburger-menu').addEventListener('click', function() {
+    const menu = document.querySelector('.menu');
+    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+})
+
 /* ------Our Classes------ */ 
 
 const classContent = [

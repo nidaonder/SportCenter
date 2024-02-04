@@ -13,6 +13,9 @@ header {
     background-position: center center;
     background-size: cover;
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 #navbar {
@@ -95,4 +98,65 @@ header .box-2 .button-2 {
     border-radius: 4px;
     padding: 8px 24px;
     margin-right: 30px;
+}
+
+/* Responsive */
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 576px){
+
+    .hamburger-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar .menu {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #navbar .menu li {
+        margin: 15px 0;
+    }
+
+    header {
+        gap:10rem;
+    }
+
+    header .box-2 h2 {
+        font-size: 5rem;
+    }
+    header .box-2 p {
+        font-size: 2rem;
+    }
+
+    #header-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #header-buttons button {
+        text-align: start;
+    }
+
+    #classes {
+        display: none;  /* unutmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+    }
 }
