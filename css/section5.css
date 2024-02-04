@@ -51,6 +51,12 @@
     text-align: center;
 }
 
+.section-5 .box-2 p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .section-5 .box-3 h6 {
     color: #404040;
     font-size: 2rem;
