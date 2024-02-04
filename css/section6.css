@@ -90,4 +90,14 @@
         flex-direction: column;
         gap: 10px;
     }
+
+    .section-6 .text-box p {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .section-6 h3 {
+        font-size: 3rem;
+    }
 }
